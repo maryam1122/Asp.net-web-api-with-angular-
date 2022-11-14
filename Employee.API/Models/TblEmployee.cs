@@ -21,6 +21,7 @@ namespace Employee.API.Models
 
         [StringLength(20)]
         public DateTime Doj { get; set; }
+        [StringLength(50)]
 
         public string Gender { get; set; }
 
